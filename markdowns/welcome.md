@@ -24,6 +24,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 
 # Hands-on Demo
 
+test
 @[test?]({"stubs": ["src/main/java/com/yourself/Winner.java"], "command": "com.yourself.WinnerTest#test"})
 
 
