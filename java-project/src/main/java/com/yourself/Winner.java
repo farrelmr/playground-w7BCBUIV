@@ -1,3 +1,4 @@
+// { autofold
 package com.yourself;
 
 import java.time.Duration;
@@ -23,6 +24,7 @@ public class Winner {
         this.winningTime = winningTime;
         this.daysInYellow = daysInYellow;
     }
+//}
     public static final List<Winner> tdfWinners = Arrays.asList(
             new Winner(2006, "Spain", "Óscar Pereiro", "Caisse d'Epargne–Illes Balears", 3657, Duration.parse("PT89H40M27S"), 8),
             new Winner(2007, "Spain", "Alberto Contador", "Discovery Channel", 3570, Duration.parse("PT91H00M26S"), 4),
@@ -160,7 +162,7 @@ public class Winner {
         System.out.println("winsByNationalityCounting - " + winsByNationalityCounting);
         
     }
-    
+// { autofold
     public double getAveSpeed() {
         return (getLengthKm() / (getWinningTime().getSeconds() / 3600) );
     }
@@ -218,5 +220,5 @@ public class Winner {
     public String toString() {
         return name;
     }    
-    
+// }    
 }
