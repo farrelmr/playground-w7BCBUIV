@@ -4,7 +4,7 @@ The origins of this article were my original blog post [Java 8 - Streams Cookboo
 
 Streams in Java 8 provide a declarative approach to Collections. The simplest analogy is the your Collection is a water butt, and when you turn the tap(faucet) you create a stream which you can then process.
 
-The advantages of Streams are –
+The advantages of Streams are – 
 
 1. Declarative
 2. Parallelisable
