@@ -6,7 +6,6 @@ Streams in Java 8 provide a declarative approach to Collections. The simplest an
 
 The advantages of Streams are – 
 
-
 1. Declarative
 2. Parallelisable
 3. Reduced Boilerplate – internal iteration
