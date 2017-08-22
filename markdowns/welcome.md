@@ -31,7 +31,6 @@ test
 
 ```java runnable
 // { autofold
-import com.javabullets.Winner;
 import java.time.Duration;
 import java.util.*;
 import static java.util.stream.Collectors.toList;
@@ -44,7 +43,7 @@ public static void main(String[] args) {
 // }
 
         // Filter and Map -
-        List<String> winnersOfToursLessThan3500km = Winner.tdfWinners
+        List<String> winnersOfToursLessThan3500km = com.javabullets.Winner.tdfWinners
                                                         .stream()
                                                         .filter(d -> d.getLengthKm() < 3500) // Separate out Tours less than 3500km
                                                         .map(Winner::getName) // Get names of winners
