@@ -19,7 +19,51 @@ The Stream operations are either –
 
 This Java template lets you get started quickly with a simple working example using Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
-@[Cookbook]({"stubs": ["src/main/java/com/yourself/Winner.java"], "command": "com.yourself.WinnerTest#test"})
+@[Cookbook]({"stubs": ["src/main/java/com/javabullets/Winner.java"], "command": "com.javabullets.WinnerTest#test"})
+
+test 
+
+```java runnable
+// { autofold
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Period;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class Main {
+
+public static void main(String[] args) {
+
+// }
+		Date today = new Date();
+		System.out.println("Note the time includes the default timezone - " + today.toString());
+
+		Date twentySevenFeb2017Date = new Date(117, 1, 27);
+		System.out.println("Now deprecated new Date(day, month, year) - but note month starts at zero, and year 1900 - " + twentySevenFeb2017Date);
+
+		Calendar twentySevenFeb2017Calendar = new GregorianCalendar(2017,1,27);
+		System.out.println("Calendar - month starts at zero, and but year fixed - " + twentySevenFeb2017Calendar.getTime());
+
+		DateFormat ddMMyyySDF = new SimpleDateFormat("dd/MM/yyyy");
+		System.out.println("DateFormat not ThreadSafe - " + ddMMyyySDF.format(twentySevenFeb2017Date));
+//{ autofold
+}
+
+}
+//}
+```
+
 
 
 

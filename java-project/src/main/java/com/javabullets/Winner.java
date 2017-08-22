@@ -1,29 +1,11 @@
 // { autofold
-package com.yourself;
+package com.javabullets;
 
 import java.time.Duration;
 import java.util.*;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.*;
-public class Winner {
-    private int year;
-    private String nationality;
-    private String name;
-    private String team;
-    private int lengthKm;
-    private Duration winningTime;
-    private int stageWins;
-    private int daysInYellow;
-    
-    public Winner(int year, String nationality, String name, String team, int lengthKm, Duration winningTime, int daysInYellow) {
-        this.year = year;
-        this.nationality = nationality;
-        this.name = name;
-        this.team = team;
-        this.lengthKm = lengthKm;
-        this.winningTime = winningTime;
-        this.daysInYellow = daysInYellow;
-    }
+public class Winner {	
 //}
     public static final List<Winner> tdfWinners = Arrays.asList(
             new Winner(2006, "Spain", "Óscar Pereiro", "Caisse d'Epargne–Illes Balears", 3657, Duration.parse("PT89H40M27S"), 8),
@@ -163,6 +145,25 @@ public class Winner {
         
     }
 // { autofold
+    private int year;
+    private String nationality;
+    private String name;
+    private String team;
+    private int lengthKm;
+    private Duration winningTime;
+    private int stageWins;
+    private int daysInYellow;
+    
+    public Winner(int year, String nationality, String name, String team, int lengthKm, Duration winningTime, int daysInYellow) {
+        this.year = year;
+        this.nationality = nationality;
+        this.name = name;
+        this.team = team;
+        this.lengthKm = lengthKm;
+        this.winningTime = winningTime;
+        this.daysInYellow = daysInYellow;
+    }
+
     public double getAveSpeed() {
         return (getLengthKm() / (getWinningTime().getSeconds() / 3600) );
     }
