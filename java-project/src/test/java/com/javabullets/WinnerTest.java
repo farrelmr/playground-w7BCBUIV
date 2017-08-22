@@ -1,4 +1,4 @@
-package com.yourself;
+package com.javabullets;
 
 import java.io.File;
 import java.io.FileNotFoundException;
