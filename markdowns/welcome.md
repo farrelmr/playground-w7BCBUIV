@@ -23,7 +23,7 @@ This Java template lets you get started quickly with a simple working example us
 
 
 
-@[Cookbook]({"stubs": ["Winner.java"], "command": "javac Winner.java && java Winner"})
+@[Cookbook]({"stubs": ["com.javabullets.Winner.java"], "command": "java Winner"})
 
 test 
 
