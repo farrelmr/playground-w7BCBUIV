@@ -21,4 +21,35 @@ This Java template lets you get started quickly with a simple working example us
 
 @[Cookbook]({"stubs": ["src/main/java/com/yourself/Winner.java"], "command": "com.yourself.WinnerTest#test"})
 
+
+
+```java runnable
+// { autofold
+import com.yourself.Winner;
+import java.time.Duration;
+import java.util.*;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.*;
+
+public class Main {
+
+public static void main(String[] args) {
+
+// }
+        // Filter and Map -
+        List<String> winnersOfToursLessThan3500km = Winner.tdfWinners
+                                                        .stream()
+                                                        .filter(d -> d.getLengthKm() < 3500) // Separate out Tours less than 3500km
+                                                        .map(Winner::getName) // Get names of winners
+                                                        .collect(toList()); // Return a list
+        // Winners of Tours Less than 3500km - [Alberto Contador, Cadel Evans, Bradley Wiggins, Chris Froome, Chris Froome]        
+        System.out.println("Winners of Tours Less than 3500km - " + winnersOfToursLessThan3500km);
+        
+//{ autofold
+}
+
+}
+//}
+```
+
 If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com)
