@@ -1,4 +1,6 @@
 // { autofold
+package com.javabullets;
+
 import java.time.Duration;
 import java.util.*;
 import static java.util.stream.Collectors.toList;
