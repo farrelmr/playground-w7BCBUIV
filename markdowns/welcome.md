@@ -22,12 +22,8 @@ grre
 This Java template lets you get started quickly with a simple working example using Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
 
-<<<<<<< HEAD
 @[Cookbook]({"stubs": ["Winner.java"], "command": "WinnerTest#test"})
-=======
 
-@[Cookbook]({"stubs": ["com.javabullets.Winner.java"], "command": "java src/main/java/com/javabullets/Winner"})
->>>>>>> origin/master
 
 test 
 
