@@ -29,7 +29,7 @@ test
 
 test
 
-
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/javabullets/Winner.java"], "command": "com.javabullets.WinnerTest#test"})
 
 
 ```java runnable
