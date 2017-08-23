@@ -16,7 +16,6 @@ public class WinnerTest {
 	
 	
 	
-	
 
 	private static void msg(String channel, String msg) {
 		System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, msg));
