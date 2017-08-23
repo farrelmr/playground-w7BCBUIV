@@ -53,6 +53,7 @@ filter(d -> d.getLengthKm() < 3500)
 
 * We then use the map method and collect method to store to a list
 
+
 @[Winners Of Tours Greater Than or Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursGreaterOrLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursGreaterOrLessThan3500km"})
 
 
