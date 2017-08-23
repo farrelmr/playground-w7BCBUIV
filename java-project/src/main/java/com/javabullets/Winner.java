@@ -1,4 +1,3 @@
-// { autofold
 package com.javabullets;
 
 import java.time.Duration;
@@ -6,7 +5,6 @@ import java.util.*;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.*;
 public class Winner {
-//}
     public static final List<Winner> tdfWinners = Arrays.asList(
             new Winner(2006, "Spain", "Óscar Pereiro", "Caisse d'Epargne–Illes Balears", 3657, Duration.parse("PT89H40M27S"), 8),
             new Winner(2007, "Spain", "Alberto Contador", "Discovery Channel", 3570, Duration.parse("PT91H00M26S"), 4),
@@ -20,7 +18,6 @@ public class Winner {
             new Winner(2015, "Great Britain", "Chris Froome", "Team Sky", 3360, Duration.parse("PT84H46M14S"), 16),
             new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.parse("PT89H04M48S"), 14 ));
 
-// { autofold
     private int year;
     private String nationality;
     private String name;
@@ -80,7 +77,6 @@ public class Winner {
     public void setWinningTime(Duration winningTime) {
         this.winningTime = winningTime;
     }
-    
     public int getStageWins() {
         return stageWins;
     }
@@ -98,4 +94,3 @@ public class Winner {
         return name;
     }    
 }
-// }
