@@ -37,7 +37,7 @@ new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.par
 
 # Filter And Map
 
-@[Winners Of Tours Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursLessThan3500km"})
+@[Winners Of Tours Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursGreaterOrLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursGreaterOrLessThan3500km"})
 
 
 

@@ -10,8 +10,8 @@ import org.junit.Test;
 public class WinnerTest {
 
 	@Test
-	public void winnersOfToursLessThan3500km() throws FileNotFoundException {
-		WinnersOfToursLessThan3500km.winnersOfToursLessThan3500km();
+	public void winnersOfToursGreaterOrLessThan3500km() throws FileNotFoundException {
+		WinnersOfToursGreaterOrLessThan3500km.winnersOfToursGreaterOrLessThan3500km();
 	}
 	
 	
