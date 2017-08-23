@@ -9,7 +9,7 @@ public class WinnersLimitDistinctSkip {
 // }
     public void winnersLimitDistinctSkip() {
         // limit -
-        List<Winner> winnerObjectsOfToursLessThan3500kmLimit2 = tdfWinners
+        List<Winner> winnerObjectsOfToursLessThan3500kmLimit2 = com.javabullets.Winner.tdfWinners
                                                                   .stream()
                                                                   .filter(d -> d.getLengthKm() < 3500)
                                                                   .limit(2)
@@ -17,7 +17,7 @@ public class WinnersLimitDistinctSkip {
         // winnerObjectsOfToursLessThan3500kmLimit2 [Alberto Contador, Cadel Evans]
         System.out.println("winnerObjectsOfToursLessThan3500kmLimit2 " + winnerObjectsOfToursLessThan3500kmLimit2);
         
-        List<String> firstTwoWinnersOfToursLessThan3500km = tdfWinners
+        List<String> firstTwoWinnersOfToursLessThan3500km = com.javabullets.Winner.tdfWinners
                                                               .stream()
                                                               .filter(d -> d.getLengthKm() < 3500)
                                                               .map(Winner::getName)
@@ -25,8 +25,9 @@ public class WinnersLimitDistinctSkip {
                                                               .collect(toList());
         // firstTwoWinnersOfToursLessThan3500km - [Alberto Contador, Cadel Evans]
         System.out.println("firstTwoWinnersOfToursLessThan3500km - " + firstTwoWinnersOfToursLessThan3500km);
+		
         // filter by distinct
-        List<String> distinctTDFWinners = tdfWinners
+        List<String> distinctTDFWinners = com.javabullets.Winner.tdfWinners
                                              .stream()
                                              .map(Winner::getName)
                                              .distinct()
@@ -34,7 +35,7 @@ public class WinnersLimitDistinctSkip {
         System.out.println("distinctTDFWinners - " + distinctTDFWinners);
         
         
-        long numberOfDistinceWinners = tdfWinners
+        long numberOfDistinceWinners = com.javabullets.Winner.tdfWinners
                                           .stream()
                                           .map(Winner::getName)
                                           .distinct()
@@ -43,7 +44,7 @@ public class WinnersLimitDistinctSkip {
         System.out.println("numberOfDistinceWinners - " + numberOfDistinceWinners);
         
         // skip records
-        List<Winner> skipEveryOtherTDFWinner = tdfWinners
+        List<Winner> skipEveryOtherTDFWinner = com.javabullets.Winner.tdfWinners
                                                  .stream()
                                                  .skip(2)
                                                  .collect(toList());
