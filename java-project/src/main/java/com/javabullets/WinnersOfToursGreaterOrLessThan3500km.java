@@ -1,14 +1,14 @@
 package com.javabullets;
-//{ autofold
+// { autofold
 import java.time.Duration;
 import java.util.*;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.*;
 
 public class WinnersOfToursGreaterOrLessThan3500km {
+// }
+    public void winnersOfToursGreaterOrLessThan3500km() {
 
-public void winnersOfToursGreaterOrLessThan3500km() {
-//}
 
         // Filter and Map -
         List<String> winnersOfToursLessThan3500km = com.javabullets.Winner.tdfWinners
@@ -27,7 +27,7 @@ public void winnersOfToursGreaterOrLessThan3500km() {
                                                          .collect(toList());
         // Winners of Tours Greater than 3500km - [Óscar Pereiro, Alberto Contador, Carlos Sastre, Andy Schleck, Vincenzo Nibali, Chris Froome]
         System.out.println("Winners of Tours Greater than 3500km - " + winnersOfToursGreaterThan3500km);
-//{ autofold
+    }
+// { autofold
 }
-//}
-}
+// }
