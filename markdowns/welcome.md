@@ -37,7 +37,23 @@ new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.par
 
 # Filter And Map
 
-@[Winners Of Tours Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursGreaterOrLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursGreaterOrLessThan3500km"})
+There are 3 steps in converting the tdfWinners list to a list of winners of tours greater than or less than 3500km -
+
+* filter - Here we use a lambdas - for less than -
+
+```java
+filter(d -> d.getLengthKm() < 3500)
+```
+
+* filter - Here we use a lambdas - for more than -
+
+```java
+.filter(d -> d.getLengthKm() >= 3500)
+```
+
+* We then use the map method and collect method to store to a list
+
+@[Winners Of Tours Greater Than or Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursGreaterOrLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursGreaterOrLessThan3500km"})
 
 
 
