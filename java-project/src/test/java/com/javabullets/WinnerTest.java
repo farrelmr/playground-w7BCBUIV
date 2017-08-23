@@ -10,16 +10,13 @@ import org.junit.Test;
 public class WinnerTest {
 
 	@Test
-	public void test() throws FileNotFoundException {
-//		try {
-//			Winner.runExamples();
-//			success(true);
-//		} catch (AssertionError ae) {
-//			success(false);
-//			msg("Oops! 🐞", ae.getMessage());
-//			msg("Hint 💡", "Did you properly accumulate all stars into 'totalStars'? 🤔");
-//		}
+	public void winnersOfToursLessThan3500km() throws FileNotFoundException {
+		WinnersOfToursLessThan3500km.winnersOfToursLessThan3500km();
 	}
+	
+	
+	
+	
 
 	private static void msg(String channel, String msg) {
 		System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, msg));

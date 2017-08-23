@@ -37,46 +37,9 @@ new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.par
 
 # Filter And Map
 
-```java runnable
-// { autofold
-import com.javabullets.Winner;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.temporal.TemporalAdjuster;
-import java.time.temporal.TemporalAdjusters;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
+@[Winners Of Tours Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursLessThan3500km"})
 
-public class Main {
 
-public static void main(String[] args) {
 
-// }
-		Date today = new Date();
-		System.out.println("Note the time includes the default timezone - " + today.toString());
-
-		Date twentySevenFeb2017Date = new Date(117, 1, 27);
-		System.out.println("Now deprecated new Date(day, month, year) - but note month starts at zero, and year 1900 - " + twentySevenFeb2017Date);
-
-		Calendar twentySevenFeb2017Calendar = new GregorianCalendar(2017,1,27);
-		System.out.println("Calendar - month starts at zero, and but year fixed - " + twentySevenFeb2017Calendar.getTime());
-
-		DateFormat ddMMyyySDF = new SimpleDateFormat("dd/MM/yyyy");
-		System.out.println("DateFormat not ThreadSafe - " + ddMMyyySDF.format(twentySevenFeb2017Date));
-//{ autofold
-}
-
-}
-//}
-```
 
 If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com)
