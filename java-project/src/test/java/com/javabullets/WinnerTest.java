@@ -15,7 +15,11 @@ public class WinnerTest {
 		winnersOfToursGreaterOrLessThan3500km.winnersOfToursGreaterOrLessThan3500km();
 	}
 	
-	
+	@Test
+	public void winnersLimitDistinctSkip() {
+		WinnersLimitDistinctSkip winnersLimitDistinctSkip = new WinnersLimitDistinctSkip();
+		winnersLimitDistinctSkip.winnersLimitDistinctSkip();
+	}	
 	
 
 	private static void msg(String channel, String msg) {

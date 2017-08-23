@@ -56,7 +56,12 @@ filter(d -> d.getLengthKm() < 3500)
 
 @[Winners Of Tours Greater Than or Less Than 3500km long]({"stubs": ["src/main/java/com/javabullets/WinnersOfToursGreaterOrLessThan3500km.java"], "command": "com.javabullets.WinnerTest#winnersOfToursGreaterOrLessThan3500km"})
 
+# Limit, Distinct and Skip
 
+* limit - limit the number of records to be returned
+* distinct - only return distinct records
+* skip - skip every n records
 
+@[Limit, Distinct and Skip]({"stubs": ["src/main/java/com/javabullets/WinnersLimitDistinctSkip.java"], "command": "com.javabullets.WinnerTest#winnersLimitDistinctSkip"})
 
 If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com)
