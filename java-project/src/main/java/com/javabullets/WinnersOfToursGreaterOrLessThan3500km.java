@@ -7,7 +7,7 @@ import static java.util.stream.Collectors.*;
 
 public class WinnersOfToursGreaterOrLessThan3500km {
 
-public static void winnersOfToursGreaterOrLessThan3500km() {
+public void winnersOfToursGreaterOrLessThan3500km() {
 //}
 
         // Filter and Map -
