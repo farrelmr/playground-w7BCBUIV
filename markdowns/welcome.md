@@ -124,6 +124,5 @@ public class Winner {
 ```
 
 
-
 If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com)
 
