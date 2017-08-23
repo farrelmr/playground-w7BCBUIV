@@ -7,7 +7,7 @@ import static java.util.stream.Collectors.*;
 
 public class WinnersOfToursLessThan3500km {
 
-public void winnersOfToursLessThan3500km() {
+public static void winnersOfToursLessThan3500km() {
 //}
         // Filter and Map -
         List<String> winnersOfToursLessThan3500km = com.javabullets.Winner.tdfWinners
