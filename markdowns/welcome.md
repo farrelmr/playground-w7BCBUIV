@@ -20,7 +20,7 @@ The Stream operations are either –
 The lists we are using is a list of Tour de France winners -
 
 ```java
-// { autofold
+//{ autofold
 package com.javabullets;
 
 import java.time.Duration;
@@ -28,8 +28,8 @@ import java.util.*;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.*;
 public class Winner {
-// }
-    public static final List<Winner> tdfWinners = Arrays.asList(
+//}
+public static final List<Winner> tdfWinners = Arrays.asList(
             new Winner(2006, "Spain", "Óscar Pereiro", "Caisse d'Epargne–Illes Balears", 3657, Duration.parse("PT89H40M27S"), 8),
             new Winner(2007, "Spain", "Alberto Contador", "Discovery Channel", 3570, Duration.parse("PT91H00M26S"), 4),
             new Winner(2008, "Spain", "Carlos Sastre", "Team CSC", 3559, Duration.parse("PT87H52M52S"), 5),
@@ -42,7 +42,7 @@ public class Winner {
             new Winner(2015, "Great Britain", "Chris Froome", "Team Sky", 3360, Duration.parse("PT84H46M14S"), 16),
             new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.parse("PT89H04M48S"), 14 ));
 
-// { autofold
+//{ autofold
     private int year;
     private String nationality;
     private String name;
@@ -119,7 +119,7 @@ public class Winner {
     public String toString() {
         return name;
     }    
-// }
+//}
 }
 ```
 
