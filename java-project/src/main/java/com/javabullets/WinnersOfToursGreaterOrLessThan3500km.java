@@ -20,7 +20,7 @@ public void winnersOfToursGreaterOrLessThan3500km() {
         // Winners of Tours Less than 3500km - [Alberto Contador, Cadel Evans, Bradley Wiggins, Chris Froome, Chris Froome]        
         System.out.println("Winners of Tours Less than 3500km - " + winnersOfToursLessThan3500km);
 		
-        List<String> winnersOfToursGreaterThan3500km = tdfWinners
+        List<String> winnersOfToursGreaterThan3500km = com.javabullets.Winner.tdfWinners
                                                          .stream()
                                                          .filter(d -> d.getLengthKm() >= 3500)
                                                          .map(Winner::getName)
