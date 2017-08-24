@@ -4,9 +4,10 @@ title : Java 8 – Streams Cookbook
 plan:
   - title: Java 8 – Streams Cookbook
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-
+  - title: Java 8 - Streams Cookbook - Matching and Reducing
+    statement: markdowns/matching-reducing.md
+  - title: Java 8 - Streams Cookbook - groupby, join and grouping
+    statement: markdowns/groupby.md
 
 # Settings for your programming projects and the associated Docker images
 projects:

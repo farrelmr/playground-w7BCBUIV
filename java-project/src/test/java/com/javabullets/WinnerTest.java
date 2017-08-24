@@ -21,7 +21,36 @@ public class WinnerTest {
 		winnersLimitDistinctSkip.winnersLimitDistinctSkip();
 	}	
 	
-
+	@Test
+	public void winnersMatching() {
+		WinnersMatching winnersMatching = new WinnersMatching();
+		winnersMatching.winnersMatching();
+	}	
+	
+	@Test
+	public void winnersMatching() {
+		WinnersMatching winnersMatching = new WinnersMatching();
+		winnersMatching.winnersMatching();
+	}
+	
+	@Test
+	public void winnersReducing() {
+		WinnersReducing winnersReducing = new WinnersReducing();
+		winnersReducing.winnersReducing();
+	}
+	
+	@Test
+	public void winnersGroupby() {
+		WinnersGroupby winnersGroupby = new WinnersGroupby();
+		winnersGroupby.winnersGroupby();
+	}	
+	
+	@Test
+	public void winnersGrouping() {
+		WinnersGrouping winnersGrouping = new WinnersGrouping();
+		winnersGrouping.winnersGrouping();
+	}	
+	
 	private static void msg(String channel, String msg) {
 		System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, msg));
 	}

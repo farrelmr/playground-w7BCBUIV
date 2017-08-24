@@ -1,6 +1,6 @@
 # Java 8 – Streams Cookbook
  
-The origins of this article were my original blog post [Java 8 - Streams Cookbook](https://www.javabullets.com/java-8-streams-cookbook/). This article provided a single main method and a number of different Streams examples. This post re-writes the article interactively using tech.io.
+The origins of this article were my original blog post [Java 8 - Streams Cookbook](https://www.javabullets.com/java-8-streams-cookbook/). This article provided a number of examples using Java 8 Streams from the original article, and allows them to be run using tech.io.
 
 Streams in Java 8 provide a declarative approach to Collections. The simplest analogy is the your Collection is a water butt, and when you turn the tap(faucet) you create a stream which you can then process.
 
@@ -64,4 +64,6 @@ filter(d -> d.getLengthKm() < 3500)
 
 @[Limit, Distinct and Skip]({"stubs": ["src/main/java/com/javabullets/WinnersLimitDistinctSkip.java"], "command": "com.javabullets.WinnerTest#winnersLimitDistinctSkip"})
 
-If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com)
+If you have liked this post, check out my personal blog which contains similar tutorials at [www.javabullets.com](http://www.javabullets.com). 
+
+You can also provide me feedback at martin at javabullets.com
