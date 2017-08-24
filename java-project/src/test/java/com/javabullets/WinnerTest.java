@@ -25,12 +25,6 @@ public class WinnerTest {
 	public void winnersMatching() {
 		WinnersMatching winnersMatching = new WinnersMatching();
 		winnersMatching.winnersMatching();
-	}	
-	
-	@Test
-	public void winnersMatching() {
-		WinnersMatching winnersMatching = new WinnersMatching();
-		winnersMatching.winnersMatching();
 	}
 	
 	@Test
